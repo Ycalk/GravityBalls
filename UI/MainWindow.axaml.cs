@@ -112,12 +112,6 @@ public partial class MainWindow : Window
 
         if (pointerProperties.IsRightButtonPressed)
         {
-            // Почему-то не работает
-            // Random random = new Random();
-            // PropertyInfo[] brushes = typeof(Brushes).GetProperties();
-            // int randomIndex = random.Next(brushes.Length);
-            // PropertyInfo randomBrushProperty = brushes[randomIndex];
-            // Brush brush = (Brush)randomBrushProperty.GetValue();
             ball.Fill = Brushes.Beige;
         }
     }
